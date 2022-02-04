@@ -23,9 +23,10 @@ function readline() {
 
 function main() {
   // your code goes here
-  var A = parseInt(readline());
-  var B = parseInt(readline());
+  var R = parseFloat(readline());
+var n = 3.14159;
 
-  var X = A + B;
-  print("X " + "= " + X)
+var A = (n * (R*R)).toFixed(4);
+
+print("A=" + A);
 }
