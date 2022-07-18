@@ -24,9 +24,9 @@ function readline() {
 function main() {
   // your code goes here
   var R = parseFloat(readline());
-var n = 3.14159;
+  var n = 3.14159;
 
-var A = (n * (R*R)).toFixed(4);
+  var A = (n * (R * R)).toFixed(4);
 
-print("A=" + A);
+  print("A=" + A);
 }
