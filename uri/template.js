@@ -23,9 +23,10 @@ function readline() {
 
 function main() {
   // your code goes here
-  var A = parseInt(readline());
-  var B = parseInt(readline());
+  var x = parseInt(readline());
+  var y = parseInt(readline());
 
-  var SOMA = A + B;
-  print("SOMA " + "= " + SOMA)
+  var PROD = x * y;
+
+  print("PROD" + " = " + PROD)
 }
