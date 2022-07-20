@@ -23,10 +23,9 @@ function readline() {
 
 function main() {
   // your code goes here
-  var R = parseFloat(readline());
-  var n = 3.14159;
+  var A = parseInt(readline());
+  var B = parseInt(readline());
 
-  var A = (n * (R * R)).toFixed(4);
-
-  print("A=" + A);
+  var SOMA = A + B;
+  print("SOMA " + "= " + SOMA)
 }
