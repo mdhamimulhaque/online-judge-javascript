@@ -23,10 +23,15 @@ function readline() {
 
 function main() {
   // your code goes here
-  var x = parseInt(readline());
-  var y = parseInt(readline());
+  var A = parseFloat(readline());
+  var B = parseFloat(readline());
 
-  var PROD = x * y;
+  var AA = (A * 3.5);
+  var BB = (B * 7.5);
 
-  print("PROD" + " = " + PROD)
+  var res = (AA + BB) / 11;
+
+  var MEDIA = res.toFixed(5);
+
+  print("MEDIA" + " = " + MEDIA);
 }
