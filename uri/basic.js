@@ -1,4 +1,6 @@
 //================ jsSell Basic ================
+// -----load jsSell file
+load("")
 
 // ------ get input
 var input = readline(); //------> it returns string values
