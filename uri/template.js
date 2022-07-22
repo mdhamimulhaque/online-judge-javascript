@@ -23,14 +23,11 @@ function readline() {
 
 function main() {
   // your code goes here
-  var A = parseFloat(readline());
-  var B = parseFloat(readline());
-  var C = parseFloat(readline());
+  var employeeNum = parseFloat(readline());
+  var worksHour = parseFloat(readline());
+  var salary = parseFloat(readline());
 
-  var AA = A * 2;
-  var BB = B * 3;
-  var CC = C * 5;
-  var MEDIA = ((AA + BB + CC) / 10).toFixed(1);
+  var totalSalary = (worksHour * salary).toFixed(2);
 
-  print("MEDIA" + " = " + MEDIA);
+  print("NUMBER" + " = " + employeeNum + "\n" + "SALARY" + " = " + "U$ " + totalSalary);
 }
